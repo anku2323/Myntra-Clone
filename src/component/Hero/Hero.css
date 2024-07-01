@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 30px;
+}
+h1{
+    margin: 30px;
+}
+.data-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.data-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.data-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.data-name {
+    font-size: 1.2em;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.retail-price,
+.discounted-price {
+    margin: 4px 0;
+}
+
+.discounted-price {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+.add-to-cart-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.add-to-cart-button:hover {
+    background-color: #e5533d;
+}
